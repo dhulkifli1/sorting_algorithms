@@ -16,7 +16,9 @@ void insertion_sort_list(listint_t **list)
 	listint_t *tempB;
 	listint_t *tempA;
 
-
+	if (list == NULL)
+		return;
+		
 	while (node != NULL)
 	{
 		nodeCurrent = node;
