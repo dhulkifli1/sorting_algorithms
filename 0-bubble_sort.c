@@ -4,7 +4,7 @@
 
 /*
  * bubble_sort - sorts an array of integers in ascending order using Bubble sort
- * 
+ *
  * @array: array to be sorted
  * @size: size of the array
 */
